@@ -25,7 +25,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    private final String apiPath = "http://my-server:8083/api/v1";
+    private final String apiPath = "http://my-server:8083/api/v2";
 
     @GetMapping("/users")
     @ResponseStatus(HttpStatus.OK)
